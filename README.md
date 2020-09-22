@@ -1,7 +1,7 @@
 # Concrete-Compressive-Strength
 
 
-This is a classical regression case in which the concrete compressive strngth is predicted based on different process parameters.
+This is a classical regression case in which the concrete compressive strength is predicted based on different process parameters.
 
 ### Dataset
 
