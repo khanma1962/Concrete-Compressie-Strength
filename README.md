@@ -16,7 +16,7 @@ Attribute breakdown 8 quantitative input variables, and 1 quantitative output va
 
 
 
-Name -- Data Type -- Measurement -- Description
+### Name -- Data Type -- Measurement -- Description
 
 Cement (component 1) -- quantitative -- kg in a m3 mixture -- Input Variable
 
@@ -36,6 +36,29 @@ Age -- quantitative -- Day (1~365) -- Input Variable
 
 Concrete compressive strength -- quantitative -- MPa -- Output Variable
 
+
+The following algorithms were used calculate RMSE and R2 metrics
+
+(1) Linear Regression
+
+(2) Ridge Regression (L2 Penalty)
+
+(3) Lasso Regression (L1 Penalty)
+
+(4) KNN
+
+(5) Decision Tree
+
+(6) Random Forest Regressor
+
+(7) Gradient Boosing Regressor
+
+(8) Adaboost Regressor
+
+(9) Neural Network ( Work in progress)
+
+
+So far, Gradient Boosting seems to be the best option with R2 = 0.90 and RMSE = 5.3
 
 
 
