@@ -37,6 +37,8 @@ Age -- quantitative -- Day (1~365) -- Input Variable
 Concrete compressive strength -- quantitative -- MPa -- Output Variable
 
 
+### Algorithms used
+
 The following algorithms were used calculate RMSE and R2 metrics
 
 (1) Linear Regression
@@ -58,6 +60,7 @@ The following algorithms were used calculate RMSE and R2 metrics
 (9) Neural Network ( Work in progress)
 
 
+### Conclusion
 So far, Gradient Boosting seems to be the best option with R2 = 0.90 and RMSE = 5.3
 
 
